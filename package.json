@@ -4,12 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "tsc && node bin/index.js",
+    "watch": "nodemon --inspect"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "dotenv": "^8.2.0"
+    "@types/node": "^14.14.34",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "tslib": "^2.1.0",
+    "typescript": "^4.2.3"
   },
   "dependencies": {
     "axios": "^0.21.1",
