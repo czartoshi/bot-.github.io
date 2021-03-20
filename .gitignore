@@ -1,2 +1,10 @@
 .env
 node_modules
+bin/models/config.model.js.map
+bin/models/config.model.js
+bin/index.js.map
+bin/index.js
+.vscode/tasks.json
+.vscode/settings.json
+.vscode/launch.json
+.DS_Store
